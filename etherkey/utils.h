@@ -3,7 +3,7 @@
 #include <Arduino.h>
 
 #ifndef HWSERIAL
-#define HWSERIAL Serial
+#define HWSERIAL Serial1
 #endif
 
 #define SerialPrintf(fmt, ...) SerialPrintfOut(HWSERIAL, 0, fmt, ##__VA_ARGS__)
