@@ -8,7 +8,7 @@ int crs_idx = 0;
 int mode = 1;
 int newmode = 0;
 enum mode {INVALID, COMMAND, INTERACTIVE, DEBUG};
-const char* mode_strings[] = {"invalid", "command", "interactive", "debug"};
+const char* mode_strings[4] = {"invalid", "command", "interactive", "debug"};
 const char* selectMode = "Select Inputmode: [1] Command - [2] Interactive - [3] Debug";
 
 void setup() {

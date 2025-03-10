@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Print.h>
+#include <Arduino.h>
 
 #ifndef HWSERIAL
 #define HWSERIAL Serial

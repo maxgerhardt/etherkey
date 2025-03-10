@@ -8,6 +8,12 @@
 #define KEYNAME_BUFFSZ 25
 #define PREFIX 17 // CTRL-Q
 
+extern const char* selectMode;
+extern const char* mode_strings[4];
+extern char kbd_buff[KBD_BUFFSZ];
+extern int kbd_idx;
+extern int crs_idx;
+
 // Util functions
 int mode_select(char in_ascii, int oldmode);
 uint16_t escape_sequence_to_keycode(char in_ascii);
